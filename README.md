@@ -22,11 +22,16 @@ This program expects two files in the same directory as it runs out of:
     username
     api-key
     
-    Yup thats it, a plain text file with two seperate lines! Make sure there's a line break between the two!!!
+Yup thats it, a plain text file with two seperate lines! Make sure there's a line break between the two!!!
     
 -brackets.txt: This file will contain the names of the brackets you want to use.
-  If your challonge URL was http://challonge.com/ABC123, then brackets.txt should have a line that says ABC123
-  Again, these should be plain text files, with each entry on a seperate line.
+    The format is also very simple:
+    
+    If your challonge URL was http://challonge.com/ABC123
+    then brackets.txt should have a line that says ABC123
+    
+
+Again, both of these should be plain text files, with each entry on a seperate line.
   
   
 Super easy and simple! Now go make power-rankings without everyone whining!
