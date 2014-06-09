@@ -40,6 +40,7 @@ Super easy and simple! Now go make power-rankings without everyone whining!
 
 
 Caveats:
+
 -To use the challonge API, you have to be the creator of the bracket on challonge. There IS a way to get around this! When making a bracket in challonge, under Advanced Settings -> Permissions -> Share admin access, you can allow other users to administrate. As long as you're marked as an administrator, you will be able to use that bracket with elo_calculator. However, YOU CANNOT SET SOMEONE AS ADMINISTRATOR ONCE THE TOURNEY IS OVER. 
 
 -Naming: If participants aren't named consistently, the calculator won't know they are the same player. It will not know two players with almost identical names are actually the same player. Make sure the players are named IDENTICALLY in all brackets. 
