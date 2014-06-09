@@ -39,3 +39,18 @@ Again, both of these should be plain text files, with each entry on a seperate l
 Super easy and simple! Now go make power-rankings without everyone whining!
 
 
+Caveats:
+-To use the challonge API, you have to be the creator of the bracket on challonge. There IS a way to get around this! When making a bracket in challonge, under Advanced Settings -> Permissions -> Share admin access, you can allow other users to administrate. As long as you're marked as an administrator, you will be able to use that bracket with elo_calculator. However, YOU CANNOT SET SOMEONE AS ADMINISTRATOR ONCE THE TOURNEY IS OVER. 
+
+-Naming: If participants aren't named consistently, the calculator won't know they are the same player. It will not know two players with almost identical names are actually the same player. Make sure the players are named IDENTICALLY in all brackets. 
+
+One thing you can do is run the script, look at the output for duplicates, and then edit the participants on challonge so that they are named identically. 
+
+
+
+
+Future Features:
+- Supporting brackets that you are not the owner of.
+- TIO file support
+- Specifying AKAs so that you don't have to rename participants
+- Multishining
