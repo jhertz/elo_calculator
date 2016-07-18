@@ -19,7 +19,7 @@ class player:
         self.rating = rating
 
     def __str__(self):
-        return "name: " + self.name + " rating: " + str(self.rating)
+        return "name: " + str(self.name) + " rating: " + str(self.rating)
 
 
 class match:
